@@ -67,7 +67,7 @@ for j,q in enumerate(qs):
 	if q == 0:
 		continue
 	elif 2*q == L: # pi-momentum, operator is odd under parity so |A> is odd as well
-		block = dict(kblock=(T,q),zblock=(Z,1),pblock=(P,1))
+		block = dict(kblock=(T,q),zblock=(Z,1))
 	else: 
 		block = dict(kblock=(T,q),zblock=(Z,1))
 
