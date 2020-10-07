@@ -73,7 +73,7 @@ for j,q in enumerate(qs):
 
 
 	f = lambda i:np.exp(-2j*np.pi*q*i/L)/np.sqrt(L)
-
+	# slightly different input notation
 	Op_list = [["z",[i],f(i)] for i in range(L)]
 
 
