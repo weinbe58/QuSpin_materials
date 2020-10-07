@@ -4,6 +4,6 @@
 *.log
 *.nav
 *.out
-*.smm
+*.snm
 *.synctex.gz
 *.toc
